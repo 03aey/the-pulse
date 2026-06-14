@@ -14,35 +14,35 @@ This project was created with three main goals:
 
 ## Features
 
--   **Task Management (CRUD)** - Create, read, update, and delete items with instant feedback
--   **Toast Notifications** - Success, error, warning, and info messages with auto-dismiss
--   **Confirmation Dialogs** - Safe deletion with confirmation popups to prevent accidents
--   **Analytics Dashboard** - Real-time charts showing trends, status distribution, and priority breakdown
--   **Item Details Page** - View full item information with metadata and timestamps
--   **Dark Mode** - Toggle between light and dark themes with persistent storage
--   **Responsive Design** - Works perfectly on mobile, tablet, and desktop
--   **Profile Management** - User account section with preferences and settings [dummy]
--   **Smooth Animations** - Page transitions and component effects powered by Framer Motion
+- **Task Management (CRUD)** - Create, read, update, and delete items with instant feedback
+- **Toast Notifications** - Success, error, warning, and info messages with auto-dismiss
+- **Confirmation Dialogs** - Safe deletion with confirmation popups to prevent accidents
+- **Analytics Dashboard** - Real-time charts showing trends, status distribution, and priority breakdown
+- **Item Details Page** - View full item information with metadata and timestamps
+- **Dark Mode** - Toggle between light and dark themes with persistent storage
+- **Responsive Design** - Works perfectly on mobile, tablet, and desktop
+- **Profile Management** - User account section with preferences and settings [dummy]
+- **Smooth Animations** - Page transitions and component effects powered by Framer Motion
 
 ## Tech Stack
 
 ### Frontend
 
--   **React 19** - Latest React with concurrent features
--   **TypeScript** - Full type safety with strict mode
--   **Tailwind CSS** - Utility-first styling framework
+- **React 19** - Latest React with concurrent features
+- **TypeScript** - Full type safety with strict mode
+- **Tailwind CSS** - Utility-first styling framework
 
 ### State & Data
 
--   **TanStack Query** - Professional caching and server state management
--   **React Context** - Theme and notification state management
--   **LocalStorage** - Client-side data persistence
+- **TanStack Query** - Professional caching and server state management
+- **React Context** - Theme and notification state management
+- **LocalStorage** - Client-side data persistence
 
 ### UI & Animation
 
--   **Framer Motion** - Smooth page and component animations
--   **Recharts** - Beautiful, responsive data visualization charts
--   **Lucide Icons** - Modern, consistent icon library
+- **Framer Motion** - Smooth page and component animations
+- **Recharts** - Beautiful, responsive data visualization charts
+- **Lucide Icons** - Modern, consistent icon library
 
 ## Getting Started
 
@@ -50,7 +50,7 @@ This project was created with three main goals:
 
 ```bash
 # Clone or download the project
-git clone https://github.com/alok-x0s1/the-pulse
+git clone https://github.com/03aey/the-pulse
 cd the-pulse
 
 # Install dependencies
@@ -60,17 +60,17 @@ npm install
 npm run dev
 ```
 
-Visit `http://localhost:5173` to see the application running.
+Visit `localhost:5173` to see the application running.
 
 ### Quick Navigation
 
--   **Landing** (`/`) - Feature overview and introduction
--   **Dashboard** (`/dashboard`) - Analytics and metrics
--   **Items** (`/items`) - Task management with CRUD
--   **Item Details** (`/items/[id]`) - Full item information
--   **Analytics** (`/analytics`) - Advanced charts and trends
--   **Profile** (`/profile`) - Account information
--   **Settings** (`/settings`) - App configuration
+- **Landing** (`/`) - Feature overview and introduction
+- **Dashboard** (`/dashboard`) - Analytics and metrics
+- **Items** (`/items`) - Task management with CRUD
+- **Item Details** (`/items/[id]`) - Full item information
+- **Analytics** (`/analytics`) - Advanced charts and trends
+- **Profile** (`/profile`) - Account information
+- **Settings** (`/settings`) - App configuration
 
 ## How to Use
 
@@ -109,24 +109,24 @@ Visit `http://localhost:5173` to see the application running.
 
 **TanStack Query (React Query)**
 
--   Manages data fetching and caching
--   Automatic synchronization between server and UI
--   Mutations handle create, update, delete operations
--   Cache invalidation keeps data fresh
+- Manages data fetching and caching
+- Automatic synchronization between server and UI
+- Mutations handle create, update, delete operations
+- Cache invalidation keeps data fresh
 
 **Custom Hooks**
 
--   `useItems()` - Fetch and manage items
--   `useAnalytics()` - Get analytics data
--   `useToast()` - Show notifications
--   `useTheme()` - Theme management
+- `useItems()` - Fetch and manage items
+- `useAnalytics()` - Get analytics data
+- `useToast()` - Show notifications
+- `useTheme()` - Theme management
 
 **Mock API Layer**
 
--   Simulates backend without server
--   localStorage persistence for demo data
--   200-400ms network delays for realistic feel
--   Complete CRUD implementation
+- Simulates backend without server
+- localStorage persistence for demo data
+- 200-400ms network delays for realistic feel
+- Complete CRUD implementation
 
 ## Production Build
 
@@ -148,46 +148,46 @@ Currently, The Pulse uses **localStorage** for demo data. All items, changes, an
 
 For production use, you should integrate a real backend:
 
--   **Node.js + Express** - Custom backend
--   **Supabase** - PostgreSQL with authentication
--   **Firebase** - Google's realtime database
--   **MongoDB + Node** - NoSQL solution
+- **Node.js + Express** - Custom backend
+- **Supabase** - PostgreSQL with authentication
+- **Firebase** - Google's realtime database
+- **MongoDB + Node** - NoSQL solution
 
 ## Performance
 
 The Pulse is optimized for speed:
 
--   Code splitting by route
--   CSS minification
--   JavaScript minification
--   Efficient caching with TanStack Query
--   GPU-accelerated animations
+- Code splitting by route
+- CSS minification
+- JavaScript minification
+- Efficient caching with TanStack Query
+- GPU-accelerated animations
 
 ## Future Improvements
 
--   Real backend API integration
--   User authentication (Google OAuth, JWT)
--   Database for persistent storage
--   Real-time collaboration
--   Mobile app (React Native)
--   Advanced reporting features
--   Team/workspace support
--   Data export (CSV, PDF)
+- Real backend API integration
+- User authentication (Google OAuth, JWT)
+- Database for persistent storage
+- Real-time collaboration
+- Mobile app (React Native)
+- Advanced reporting features
+- Team/workspace support
+- Data export (CSV, PDF)
 
 ## Learning Resources
 
--   [React Documentation](https://react.dev)
--   [TanStack Query Guide](https://tanstack.com/query/latest)
--   [Tailwind CSS](https://tailwindcss.com/docs)
--   [Framer Motion](https://www.framer.com/motion)
--   [AWS S3 Guide](https://docs.aws.amazon.com/s3/)
--   [CloudFront Guide](https://docs.aws.amazon.com/cloudfront/)
+- [React Documentation](https://react.dev)
+- [TanStack Query Guide](https://tanstack.com/query/latest)
+- [Tailwind CSS](https://tailwindcss.com/docs)
+- [Framer Motion](https://www.framer.com/motion)
+- [AWS S3 Guide](https://docs.aws.amazon.com/s3/)
+- [CloudFront Guide](https://docs.aws.amazon.com/cloudfront)
 
 **Built with ❤️ to learn AWS deployment and modern React patterns.**
 
-### Connect With Me
+---
 
-[![GitHub](https://img.shields.io/badge/GitHub-Alok%20Yadav-181717?logo=github)](https://github.com/alok-x0s1)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Alok%20Yadav-0A66C2?logo=linkedin&logoColor=white)](https://linkedin.com/in/alok-x0s1)
-[![LinkedIn](https://img.shields.io/badge/Instagram-Alok%20Yadav-E4405F?logo=instagram&logoColor=white)](https://instagram.com/9.pnpm)
-
+[![GitHub](https://img.shields.io/badge/GitHub-03aey-181717?logo=github&logoColor=white)](https://github.com/03aey)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-in%2F03aey-0A66C2?logo=linkedin&logoColor=white)](https://linkedin.com/in/03aey)
+[![Portfolio](https://img.shields.io/badge/Portfolio-03aey.vercel.app-000000?logo=vercel&logoColor=white)](https://03aey.vercel.app)
+[![Linktree](https://img.shields.io/badge/Linktree-03aey-43E55E?logo=linktree&logoColor=white)](https://linktr.ee/03aey)
